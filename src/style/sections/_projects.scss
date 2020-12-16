@@ -1,6 +1,11 @@
 #projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
+  background-color: #0a192f;
+  color: $white-color;
+  background-image: linear-gradient(
+    135deg,
+    $primary-color 0%,
+    #0a192f 100%
+  );
   margin-top: -15rem;
   padding-top: 15rem;
 
@@ -45,7 +50,7 @@
       }
 
       & p > a {
-        color: $secondary-color;
+        color:  #0a192f;
       }
     }
 
