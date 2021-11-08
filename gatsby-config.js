@@ -32,7 +32,7 @@ module.exports = {
         excludePaths: ["/blog/beep-beep-lettuce"],
         height: 3,
         prependToBody: false,
-        color: `#663399`,
+        color: `#8B0000`,
         footerHeight: 500,
       }
     },
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
-        icon: 'src/images/favicon.png',
+        icon: 'src/images/YA.png',
       },
     },
     

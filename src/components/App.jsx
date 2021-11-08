@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero/Hero';
-import About from './About/About';
+import About, { resume } from './About/About';
 import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
+import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 
 import { PortfolioProvider } from '../context/context';
 
@@ -25,13 +27,27 @@ function App() {
   }, []);
 
   return (
-    <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-    </PortfolioProvider>
+    <>
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#hero">Yusuf Abdulla</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#hero">Home</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link to={resume}>Resume</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+        <Footer />
+      </PortfolioProvider>
+    </>
   );
 }
 
