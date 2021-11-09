@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'dataexploration2.png',
+    img: 'ciao.jpg',
     title: 'Ciao',
     info: 'I worked with a team to clean, process and explore datasets using python, and then make predictions based on our findings.',
     info2: '',
