@@ -28,7 +28,7 @@ function App() {
 
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar className = "navbar sticky-top" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand href="#hero">Yusuf Abdulla</Navbar.Brand>
           <Nav className="me-auto">
