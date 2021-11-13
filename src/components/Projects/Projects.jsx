@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import BackgroundVideo from '../../videos/background-video.mp4';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -24,6 +25,7 @@ const Projects = () => {
 
   return (
     <section id="projects">
+
       <Container>
         <div className="project-wrapper">
           <Title title="Projects" />
