@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: "Hi! I'm a Full Stack Web Developer with an academic background in Information Technology Management and a passion for building creative and effective applications.",
-  paragraphTwo: "I enjoy exploring datasets and discovering how I can use them to solve real-life problems. I have always been fond of problem-solving, which is how I like to look at big datasets. To me, they are large problems I want to solve.",
-  paragraphThree: "I have experience with Web Development, which helps gives me the ability to better communicate when working with developers.",
+  paragraphOne: "Hi! I'm a Full Stack Web Developer with a background in Retail Marketing and Sales and a passion for building creative and effective applications.",
+  paragraphTwo: "I'm knowledgeable in creating and designing user interfaces, debugging and testing codes, building and writing databases, and developing and maintaining applications.",
+  paragraphThree: "I enjoy solving problems and using my creativity to bring ideas to life that users might find useful!",
   resume: 'https://resume.creddle.io/resume/hotd8oqyo94', // if no resume, the button will not show up
 };
 
@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'ciao.jpg',
     title: 'Ciao',
     info: 'Collaborated with a team to develop a full stack application that allows its users to create virtual greetings containing text, images, gifs and videos that they can build with others and send to a recipient.',
-    info2: 'Tech Stack: PostgreSQL, Express, React.js, Node.js, Bootstrap, Giphy API, Unsplash API',
+    info2: 'Tech Stack: PostgreSQL, Express, React.js, Node.js, Bootstrap, Giphy API, Unsplash API, HTML, CSS',
     url: 'https://github.com/yusuf-abdulla3/Ciao',
   },
   {
@@ -39,7 +39,7 @@ export const projectsData = [
     img: 'scheduler.png',
     title: 'Interview Scheduler',
     info: 'An full stack app that allows users to book, edit, and delete interviewers with select interviewers based on their weekly availability.',
-    info2: 'Tech Stack: PostgreSQL, Express, React.js, Node.js',
+    info2: 'Tech Stack: PostgreSQL, Express, React.js, Node.js, HTML, CSS',
     url: 'https://github.com/yusuf-abdulla3/scheduler',
   },
   {
@@ -47,7 +47,7 @@ export const projectsData = [
     img: 'noimage.png',
     title: 'Jungle',
     info: "I'm baby wolf artisan prism cardigan, pickled food truck drinking vinegar pabst typewriter four dollar.",
-    info2: 'Tech Stack: Ruby on Rails, PostGreSQL, Stripe API',
+    info2: 'Tech Stack: Ruby on Rails, PostGreSQL, Stripe API, HTML, CSS',
     url: 'https://github.com/yusuf-abdulla3/jungle-rails',
   },
   {
@@ -55,23 +55,23 @@ export const projectsData = [
     img: 'cafe.jpg',
     title: 'Cafe Order-Pickup App',
     info: 'Collborated with a team to develop a restaurant order-pickup app in which the the customer can order any item on the menu. The order is then sent to the cafe via SMS using Twilio API. The restaurant inputs the amount of time it will take for the order to be completed which is then communicated to the customer via SMS using Twilio API.',
-    info2: 'PostgreSQL, Express, Node.js, Bootstrap, Twilio API',
+    info2: 'PostgreSQL, Express, Node.js, Bootstrap, Twilio API, HTML, CSS',
     url: 'https://github.com/xazzer81/UberDrink',
   },
   {
     id: nanoid(),
     img: 'tweeter.png',
     title: 'Tweeter',
-    info: 'I am currently in the middle of reconstructing a website for Express Tax and Bookkeeping services. They are a small business tax firm based in Mississauga, ON.',
-    info2: '',
+    info: 'Tweeter is a simple, single-page Twitter clone that provides a responsive design. Whether you are using a small device or a device with a larger screen, tweeter provides a responsive design that can adapt! Just like Twitter, the user cannot go over the 140 character limit. The tweet is then posted in real time.',
+    info2: 'Tech Stack: Node.js, Express.js, jQuery, Bootstrap, HTML, CSS',
     url: 'https://github.com/xazzer81/UberDrink',
   },
   {
     id: nanoid(),
     img: 'tinyapp.png',
     title: 'Tiny App',
-    info: 'I am currently in the middle of reconstructing a website for Express Tax and Bookkeeping services. They are a small business tax firm based in Mississauga, ON.',
-    info2: '',
+    info: 'TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (kind of like bit.ly).',
+    info2: 'Tech Stack: Node.js, Express, Bootstrap, HTML, CSS',
     url: 'https://github.com/xazzer81/UberDrink',
   },
 ];
