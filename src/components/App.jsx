@@ -32,11 +32,11 @@ function App() {
         <Container>
           <Navbar.Brand href="#hero">Yusuf Abdulla</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#hero">Home</Nav.Link>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-            <Nav.Link to={resume}>Resume</Nav.Link>
+            <Nav.Link className = "current" href="#hero">Home</Nav.Link>
+            <Nav.Link className = "current" href="#about">About</Nav.Link>
+            <Nav.Link className = "current" href="#projects">Projects</Nav.Link>
+            <Nav.Link className = "current" href="#contact">Contact</Nav.Link>
+            <Nav.Link className = "current" to={resume}>Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

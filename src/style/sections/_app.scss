@@ -1,3 +1,8 @@
 Navbar {
   position:static;
+  background-color: violet;
+
+  .current {
+    color: red;
+  }
 }
