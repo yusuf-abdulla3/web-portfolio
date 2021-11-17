@@ -59,15 +59,17 @@
   }
 
   .hero-cta {
-   color:turquoise;
+   color: $white-color;
     display: flex;
     justify-content: center;
+    
      
 
     
 
     @include respond(tab-port) {
       justify-content: center;
+      color: $white-color;
     }
 
     & a {

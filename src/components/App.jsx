@@ -36,7 +36,7 @@ function App() {
             <Nav.Link className = "current" href="#about">About</Nav.Link>
             <Nav.Link className = "current" href="#projects">Projects</Nav.Link>
             <Nav.Link className = "current" href="#contact">Contact</Nav.Link>
-            <Nav.Link className = "current" to={resume}>Resume</Nav.Link>
+            <Nav.Link className = "current" href="https://resume.creddle.io/resume/hotd8oqyo94" target = "_blank">Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
